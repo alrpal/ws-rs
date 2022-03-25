@@ -112,7 +112,7 @@ impl Handshake {
 /// The handshake request.
 #[derive(Debug)]
 pub struct Request {
-    path: String,
+    pub path: String,
     method: String,
     headers: Vec<(String, Vec<u8>)>,
 }
